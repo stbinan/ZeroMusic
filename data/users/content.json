@@ -16,7 +16,7 @@
   "permission_rules": {
    ".*": {
     "files_allowed": "data.json",
-    "files_allowed_optional": ".+mp3",
+    "files_allowed_optional": ".*.(mp3|flac|wav|msgpack)",
     "max_size": 50000
    }
   },
